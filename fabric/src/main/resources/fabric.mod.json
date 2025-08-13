@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "passivesearchbar",
+  "version": "1.1",
+  "name": "PassiveSearchBar",
+  "description": "Make search bars(boxes) in creative mode tabs passive!",
+  "authors": [
+    "VioletMistCloudDrift"
+  ],
+  "contact": {
+    "sources": "https://github.com/VioletMistCloudDrift/PassiveSearchBar"
+  },
+  "license": "AGPL 3.0",
+  "environment": "client",
+  "mixins": [
+    "passivesearchbar.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": ">=1.19.4"
+  }
+}

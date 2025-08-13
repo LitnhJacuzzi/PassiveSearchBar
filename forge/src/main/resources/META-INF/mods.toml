@@ -1,0 +1,13 @@
+modLoader = "lowcodefml"
+loaderVersion = "[45,)"
+license = "Nova-Relay-License-1.0"
+[[mods]]
+modId = "passivesearchbar"
+version = "1.1"
+displayName = "PassiveSearchBar"
+displayURL = "https://github.com/VioletMistCloudDrift/PassiveSearchBar" #optional
+authors = "VioletMistCloudDrift" #optional
+displayTest = "IGNORE_ALL_VERSION"
+
+# The description text for the mod (multi line!) (#mandatory)
+description = '''Make search bars(boxes) in creative mode tabs passive!'''

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "team.dovecotmc.passivesearchbar.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  	"CreativeInventoryScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

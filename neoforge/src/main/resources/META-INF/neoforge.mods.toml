@@ -1,0 +1,14 @@
+modLoader = "lowcodefml"
+loaderVersion = "[2,)"
+license = "AGPL 3.0"
+issueTrackerURL = "https://github.com/VioletMistCloudDrift/PassiveSearchBar/"
+[[mods]]
+modId = "passivesearchbar"
+version = "1.1"
+displayName = "PassiveSearchBar"
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/passive-searchbar/" #optional
+authors = "VioletMistCloudDrift"
+displayTest = "IGNORE_ALL_VERSION"
+description = '''Make search bar(box) in creative mode tabs passive'''
+[[mixins]]
+config = "passivesearchbar.mixins.json"
